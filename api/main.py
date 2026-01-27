@@ -42,7 +42,7 @@ async def detect_voice(
         raise HTTPException(status_code=401, detail="Invalid API key")
     
     # 2. Validate language
-    if request.language not in SUPPORTED_LANGUAGES:
+    if request.language.capitalize() not in SUPPORTED_LANGUAGES:
         return {
             "status": "error",
             "message": f"Language must be one of: {', '.join(SUPPORTED_LANGUAGES)}"
@@ -55,6 +55,7 @@ async def detect_voice(
             "message": "Only MP3 format is supported"
         }
     
+    temp_audio_path = None
     try:
         # 4. Decode Base64 to audio file
         temp_audio_path = decode_base64_to_audio(request.audioBase64)
@@ -73,9 +74,6 @@ async def detect_voice(
         # 8. Generate explanation
         explanation = generate_explanation(confidence, classification)
         
-        # 9. Clean up temp file
-        os.remove(temp_audio_path)
-        
         # 10. Return response
         return {
             "status": "success",
@@ -90,7 +88,11 @@ async def detect_voice(
             "status": "error",
             "message": f"Error processing audio: {str(e)}"
         }
-
+    
+    finally:
+        # 9. Clean up temp file safely
+        if temp_audio_path and os.path.exists(temp_audio_path):
+            os.remove(temp_audio_path)
 
 # Run this to start server
 if __name__ == "__main__":

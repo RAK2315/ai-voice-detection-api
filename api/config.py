@@ -1,10 +1,13 @@
-# API Configuration
+import os
 
-# My secret API key (organizer will use this to access this API)
-API_KEY = "sk_voice_detection_12345_secret"
+# Get the base directory (project root)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# Path to your trained model
-MODEL_PATH = r"D:\REHAAN\1. Ml Projects\5. AI Voice Detection\models\voice_detector.pkl"
+# API Key from environment variable
+API_KEY = os.getenv("API_KEY", "sk_voice_detection_12345_secret")
+
+# Model path (works on any system)
+MODEL_PATH = os.path.join(BASE_DIR, "models", "voice_detector.pkl")
 
 # Supported languages
 SUPPORTED_LANGUAGES = ["Tamil", "English", "Hindi", "Malayalam", "Telugu"]
