@@ -23,6 +23,7 @@ class VoiceRequest(BaseModel):
 
 # Health check endpoint
 @app.get("/")
+@app.head("/")  # Add HEAD support
 def health_check():
     return {"status": "API is running", "message": "Use POST /api/voice-detection"}
 
