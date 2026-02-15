@@ -90,3 +90,16 @@ def generate_explanation(confidence, classification):
             return "Human voice detected with typical natural speech patterns"
         else:
             return "Human classification but with some unusual acoustic features"
+
+
+
+
+
+
+
+
+'''
+decode_base64_to_audio(): Converts Base64 string → temp MP3 file
+extract_features(): Extracts 173 features from audio (same as training)
+generate_explanation(): Creates human-readable explanation
+'''
