@@ -1,7 +1,7 @@
 # AI Voice Detection API 🎯
 
 [![API Status](https://img.shields.io/badge/API-Live-brightgreen)](https://ai-voice-detection-api-tgt8.onrender.com)
-[![Accuracy](https://img.shields.io/badge/Accuracy-97.74%25-blue)]()
+[![Accuracy](https://img.shields.io/badge/Accuracy-99.28%25-blue)]()
 [![Python](https://img.shields.io/badge/Python-3.11-yellow)]()
 
 > **Top 850 / 38,000+ teams** - India AI Impact Buildathon 2026 Grand Finalist
