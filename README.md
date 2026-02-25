@@ -1,7 +1,7 @@
 # AI Voice Detection API 🎯
 [![Award](https://img.shields.io/badge/🥈_1st_Runner--Up-India_AI_Buildathon_2026-silver)]()
 [![API Status](https://img.shields.io/badge/API-Live-brightgreen)](https://ai-voice-detection-api-tgt8.onrender.com)
-[![Accuracy](https://img.shields.io/badge/Accuracy-99.28%25-blue)]()
+[![Accuracy](https://img.shields.io/badge/Accuracy-99.24%25-blue)]()
 [![Python](https://img.shields.io/badge/Python-3.11-yellow)]()
 
 > **Top 850 / 38,000+ teams** - India AI Impact Buildathon 2026 Grand Finalist
@@ -18,7 +18,7 @@ India faces a massive fraud crisis with **500,000+ scam calls daily**, costing c
 
 ## ✨ Features
 
--   **97.74% Accuracy** - Robust ensemble model
+-   **99.24% Accuracy** - Robust ensemble model
 -   **Multi-language Support** - Tamil, English, Hindi, Malayalam, Telugu
 -   **Fast Response** - 2-3 second processing time
 -   **Secure** - API key authentication
@@ -129,8 +129,8 @@ curl -X POST https://ai-voice-detection-api-tgt8.onrender.com/api/voice-detectio
 
 | Metric | Score |
 |--------|-------|
-| Test Accuracy | 97.74% |
-| Cross-Validation Score | 97.74% ± 0.75% |
+| Test Accuracy | 99.28% |
+| Cross-Validation Score | 99.28% ± 0.75% |
 | Human Precision/Recall | 98% / 99% |
 | AI Precision/Recall | 97% / 94% |
 | English Accuracy | 100% |
