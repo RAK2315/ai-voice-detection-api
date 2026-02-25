@@ -3,7 +3,7 @@ import base64
 
 # 1. Convert audio to Base64
 audio_path = r"D:\REHAAN\1. Ml Projects\5. AI Voice Detection\data\human\Tamil\7303.mp3"
-
+#audio_path = r"D:\REHAAN\1. Ml Projects\5. AI Voice Detection\data\ai\ai_sample_1.mp3"
 with open(audio_path, "rb") as audio_file:
     audio_base64 = base64.b64encode(audio_file.read()).decode('utf-8')
 

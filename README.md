@@ -1,5 +1,5 @@
 # AI Voice Detection API 🎯
-
+[![Award](https://img.shields.io/badge/🥈_1st_Runner--Up-India_AI_Buildathon_2026-silver)]()
 [![API Status](https://img.shields.io/badge/API-Live-brightgreen)](https://ai-voice-detection-api-tgt8.onrender.com)
 [![Accuracy](https://img.shields.io/badge/Accuracy-99.28%25-blue)]()
 [![Python](https://img.shields.io/badge/Python-3.11-yellow)]()
@@ -287,19 +287,20 @@ Actual Human   99      1
 ---
 
 ## 🏆 Achievements
-
+- **🥈 1st Runner-Up (2nd Place)** - India AI Impact Buildathon 2026, Bharat Mandapam, New Delhi
 - **Top 850 / 38,000+ participants** - India AI Impact Buildathon 2026
 - **Grand Finalist** - Bharat Mandapam, New Delhi (Feb 16, 2026)
-- **97.74% Accuracy** - Robust cross-validation performance
+- **99.24% Accuracy** - Robust cross-validation performance
 - **100% Multi-language** - Perfect accuracy across all 5 languages
 
 ---
 
 ## 👥 Team
 
-**Developer:** Rehaan Khan, Aarush Goel  
+**Developer:** Rehaan Khan, Aarush  
 **Hackathon:** India AI Impact Buildathon 2026  
 **Organization:** HCL GUVI & Government of India
+**Result:** 🥈 1st Runner-Up (2nd Place out of 38,000+ participants)
 
 ---
 
